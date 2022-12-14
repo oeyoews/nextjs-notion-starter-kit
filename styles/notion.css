@@ -363,7 +363,6 @@
   backdrop-filter: saturate(180%) blur(8px);
 }
 
-/* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
     background: hsla(203, 8%, 20%, 0.8);
@@ -382,3 +381,5 @@
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
+
+/* custom  */
