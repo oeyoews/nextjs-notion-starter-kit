@@ -1,11 +1,14 @@
 import * as React from 'react'
 
+import { repoLink } from '@/lib/config'
+
 import styles from './styles.module.css'
 
 export const GitHubShareButton: React.FC = () => {
+  const githubPrefix = "https://github.com/"
   return (
     <a
-      href='https://github.com/transitive-bullshit/nextjs-notion-starter-kit'
+      href={githubPrefix + repoLink}
       target='_blank'
       rel='noopener noreferrer'
       className={styles.githubCorner}

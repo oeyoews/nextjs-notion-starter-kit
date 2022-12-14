@@ -1,9 +1,10 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
+  // shared button (required)
+  repoLink: 'oeyoews/nextjs-notion-starter-kit',
   // the site's root Notion page (required)
   rootNotionPageId: '2e6d4459ab59423591394e8a6a72ce35',
-
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,

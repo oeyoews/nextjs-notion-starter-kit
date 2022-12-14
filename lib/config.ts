@@ -16,6 +16,9 @@ import {
   Site
 } from './types'
 
+// add repolink
+export const repoLink: string = getSiteConfig('repoLink') || "oeyoews"
+
 export const rootNotionPageId: string = parsePageId(
   getSiteConfig('rootNotionPageId'),
   { uuid: false }
@@ -163,8 +166,8 @@ export const site: Site = {
 export const fathomId = isDev ? null : process.env.NEXT_PUBLIC_FATHOM_ID
 export const fathomConfig = fathomId
   ? {
-      excludedDomains: ['localhost', 'localhost:3000']
-    }
+    excludedDomains: ['localhost', 'localhost:3000']
+  }
   : undefined
 
 export const posthogId = process.env.NEXT_PUBLIC_POSTHOG_ID

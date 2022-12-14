@@ -1,6 +1,7 @@
 import * as types from './types'
 
 export interface SiteConfig {
+  repoLink: string
   rootNotionPageId: string
   rootNotionSpaceId?: string
 
@@ -16,7 +17,7 @@ export interface SiteConfig {
   newsletter?: string
   youtube?: string
   zhihu?: string
-  mastodon?: string;
+  mastodon?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
