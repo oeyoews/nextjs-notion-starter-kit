@@ -21,6 +21,7 @@ export default siteConfig({
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
+  notion: 'Notion-Starter',
   twitter: 'oeyoews',
   github: 'oeyoews',
   // linkedin: 'fisch2',
@@ -55,7 +56,7 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   // navigationStyle: 'default'
-  navigationStyle: 'custom',
+  navigationStyle: 'custom', // show theme button
   navigationLinks: [
     {
       title: 'About',

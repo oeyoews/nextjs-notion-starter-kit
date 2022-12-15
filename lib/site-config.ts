@@ -12,6 +12,7 @@ export interface SiteConfig {
   description?: string
   language?: string
 
+  notion?: string
   twitter?: string
   github?: string
   linkedin?: string

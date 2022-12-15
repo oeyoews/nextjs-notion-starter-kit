@@ -17,7 +17,10 @@ import {
 } from './types'
 
 // config showGithubRibbon
-export const showGithubRibbon: boolean = getSiteConfig('showGithubRibbon', false)
+export const showGithubRibbon: boolean = getSiteConfig(
+  'showGithubRibbon',
+  false
+)
 // add repolink
 export const repoLink: string = getSiteConfig('repoLink', 'oeyoews')
 
@@ -59,6 +62,7 @@ export const description: string = getSiteConfig('description', 'Notion Blog')
 export const language: string = getSiteConfig('language', 'en')
 
 // social accounts
+export const notion: string | null = getSiteConfig('notion', null)
 export const twitter: string | null = getSiteConfig('twitter', null)
 export const mastodon: string | null = getSiteConfig('mastodon', null)
 export const github: string | null = getSiteConfig('github', null)
@@ -168,8 +172,8 @@ export const site: Site = {
 export const fathomId = isDev ? null : process.env.NEXT_PUBLIC_FATHOM_ID
 export const fathomConfig = fathomId
   ? {
-    excludedDomains: ['localhost', 'localhost:3000']
-  }
+      excludedDomains: ['localhost', 'localhost:3000']
+    }
   : undefined
 
 export const posthogId = process.env.NEXT_PUBLIC_POSTHOG_ID

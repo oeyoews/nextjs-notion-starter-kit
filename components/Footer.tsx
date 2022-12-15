@@ -9,6 +9,7 @@ import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
+import { SiNotion } from '@react-icons/all-files/si/SiNotion'
 
 import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
@@ -132,6 +133,17 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaYoutube />
+          </a>
+        )}
+        {config.notion && (
+          <a
+            className={styles.notionPublic}
+            href={`https://${config.author}.notion.site/${config.notion}-${config.rootNotionPageId}`}
+            title={`Notion ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <SiNotion />
           </a>
         )}
       </div>

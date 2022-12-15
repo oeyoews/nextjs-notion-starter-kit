@@ -86,6 +86,13 @@
   border-color: #2795e9;
 }
 
+.notion .actionBgPane {
+  background: #2795e9;
+}
+.notion:hover {
+  border-color: #2795e9;
+}
+
 .linkedin .actionBgPane {
   background: #0077b5;
 }
