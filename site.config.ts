@@ -14,11 +14,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'oeyoewl.top',
   author: 'oeyoews',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
   notion: 'Notion-Starter',
