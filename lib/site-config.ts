@@ -1,7 +1,8 @@
 import * as types from './types'
 
 export interface SiteConfig {
-  repoLink: string
+  showGithubRibbon?: boolean
+  repoLink?: string
   rootNotionPageId: string
   rootNotionSpaceId?: string
 

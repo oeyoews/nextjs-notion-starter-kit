@@ -16,8 +16,10 @@ import {
   Site
 } from './types'
 
+// config showGithubRibbon
+export const showGithubRibbon: boolean = getSiteConfig('showGithubRibbon', false)
 // add repolink
-export const repoLink: string = getSiteConfig('repoLink') || "oeyoews"
+export const repoLink: string = getSiteConfig('repoLink', 'oeyoews')
 
 export const rootNotionPageId: string = parsePageId(
   getSiteConfig('rootNotionPageId'),

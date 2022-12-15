@@ -1,8 +1,11 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // shared button (required)
+  // right top button (optional)
+  showGithubRibbon: true,
+  // shared button (optional)
   repoLink: 'oeyoews/nextjs-notion-starter-kit',
+
   // the site's root Notion page (required)
   rootNotionPageId: '2e6d4459ab59423591394e8a6a72ce35',
   // if you want to restrict pages to a single notion workspace (optional)
