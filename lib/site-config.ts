@@ -1,6 +1,7 @@
 import * as types from './types'
 
 export interface SiteConfig {
+  showPageAsideSocials?: boolean
   showGithubRibbon?: boolean
   repoLink?: string
   rootNotionPageId: string

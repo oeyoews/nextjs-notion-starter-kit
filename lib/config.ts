@@ -16,6 +16,10 @@ import {
   Site
 } from './types'
 
+export const showPageAsideSocials: boolean = getSiteConfig(
+  'showPageAsideSocials',
+  false
+)
 // config showGithubRibbon
 export const showGithubRibbon: boolean = getSiteConfig(
   'showGithubRibbon',
