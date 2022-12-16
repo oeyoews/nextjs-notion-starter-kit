@@ -14,14 +14,14 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
-  domain: 'oeyoewl.top',
+  domain: 'nextjs-notion-oeyoews.vercel.app', // dont use custom domain, use vercel
   author: 'oeyoews',
 
   // open graph metadata (optional)
   description: 'Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  // notion: 'oeyoews',
+  notion: 'oeyoews',
   twitter: 'oeyoews',
   github: 'oeyoews',
   // linkedin: 'fisch2',
