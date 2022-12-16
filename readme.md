@@ -1,11 +1,11 @@
 ## TODO
 
-- [ ] chinese translate
-- [ ] changed
-- [ ] add switch theme during
+- [ ] translate readme
+- [ ] add switch theme during effect
 - [ ] left sidebar
-- [ ] https://szufrank.top/patch-package (custom icon)
-
-* `?:` what't than mean in jsx?
 
 ![showcase 1](./images/notion-1.png 'notion-1')
+
+## Usage && Notes && Tips
+
+## xxx
