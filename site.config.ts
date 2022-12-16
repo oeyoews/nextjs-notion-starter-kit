@@ -7,8 +7,7 @@ export default siteConfig({
   repoLink: 'oeyoews/nextjs-notion-starter-kit',
 
   // the site's root Notion page (required)
-  // rootNotionPageId: '2e6d4459ab59423591394e8a6a72ce35',
-  rootNotionPageId: '7983b7cf8f8c406b8c83b8f90800b627',
+  rootNotionPageId: '2e6d4459ab59423591394e8a6a72ce35',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
