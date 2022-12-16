@@ -14,7 +14,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-oeyoews.vercel.app', // dont use custom domain, use vercel
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it', // dont use custom domain, use vercel
   author: 'oeyoews',
 
   // open graph metadata (optional)
